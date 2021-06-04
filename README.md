@@ -16,6 +16,10 @@ Comparing the accuracy of the two models
 
 ![image](https://user-images.githubusercontent.com/69346963/120823714-530ae300-c575-11eb-93b5-a7005e88ab79.png)
 
+![image](https://user-images.githubusercontent.com/69346963/120825400-fb6d7700-c576-11eb-883b-0b955c7004bc.png)
+
+![image](https://user-images.githubusercontent.com/69346963/120825518-193adc00-c577-11eb-81e1-b1b69f60ba99.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/69346963/120823778-6a49d080-c575-11eb-9bad-900bdef9b5ab.png)
