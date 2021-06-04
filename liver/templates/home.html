@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="static/style.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<div class="header">
+
+  <a href="" class="logo">
+    <img src="https://i.pinimg.com/originals/39/75/6e/39756e831ee08e470fcccda20b6dcb68.png"
+	alt="liverlogo" height="110" width="130"/>
+  <span style="color:green;font-size:55px;font-family: 'Varela Round', sans-serif;">MEDIZ</span></a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+	 <a href="#p">Predict</a>
+  </div>
+</div>
+
+<div class="container-fluid ">
+
+<img src="https://news.yale.edu/sites/default/files/styles/featured_media/public/ynews_158811346.jpeg?itok=LLqdyHBl&c=07307e7d6a991172b9f808eb83b18804"
+alt="text" width="100%" height="800px">
+
+</div>
+
+ 
+ <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small livericon">
+     <img src="https://www.lalpathlabs.com/blog/wp-content/uploads/2020/01/Liver-Diseases.jpg" class="w3-round w3-image w3-opacity-min " alt="Table Setting" width="600" height="550">
+    </div>
+
+    <div class="w3-col m5 w3-padding-large">
+      <h1 class="w3-center">About Liver Disease</h1><br>
+    <p style="font-size:22px;">
+	The liver is an organ about the size of a football. It sits just under your rib cage on the right side of your abdomen. The liver is essential for digesting food and ridding your body of toxic substances.
+
+Liver disease can be inherited (genetic). Liver problems can also be caused by a variety of factors that damage the liver, such as viruses, alcohol use and obesity.
+
+Over time, conditions that damage the liver can lead to scarring (cirrhosis), which can lead to liver failure, a life-threatening condition. But early treatment may give the liver time to heal.
+	
+	</p>
+
+    </div>
+  </div>
+  
+  <hr>
+
+ <div class="w3-row w3-padding-60" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Symptoms</h1><br>
+ <p class="w3-text-grey">
+ Liver disease doesn't always cause noticeable signs and symptoms. 
+ If signs and symptoms of liver disease do occur, the may include:
+ </p>
+      <p class="w3-text-grey">Skin and eyes that appear yellowish (jaundice)</p><br>
+    
+ 
+      <p class="w3-text-grey">Abdominal pain and swelling</p><br>
+    
+      
+      <p class="w3-text-grey">Dark urine color</p><br>
+    
+
+      <p class="w3-text-grey">Nausea or vomiting</p><br>
+    
+
+      <p class="w3-text-grey">Chronic fatigue</p> 
+<br>
+	 <p class="w3-text-grey">Tendency to bruise easily</p>    	  
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="https://image.freepik.com/free-vector/liver-disease-symptoms-cartoon-style-cartoon-style-infographic_1308-47253.jpg" 
+	  class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+	</div>
+
+  <hr>  <hr>
+  <br>
+<div id="p">
+<h1>
+<center>Liver Disease Predictor</center></h1>
+
+
+<form method="post" action="{{url_for('home')}}">
+		
+		<center>
+	
+		<div class="wrapper"><br><br>
+			<div class="input-data ">
+			<input type="text" name="age"required>
+			<div class="underline">
+			</div>	
+			<br><br>
+			<label>Age</label>
+			</div>	
+			<br>	  
+			
+			<div class="input-data">
+			<input type="text" name="no"required>
+			<div class="underline">
+			</div>
+			<label>Gender</label>
+			</div>
+			<br>
+			<div class="input-data">
+			<input type="text" name="tb"required>
+			<div class="underline">
+			</div>
+			<label>Total Bilirubin</label>
+			</div>
+			<br>
+			<div class="input-data">
+			<input type="text"  name="db"required>
+			<div class="underline">
+			</div>
+			<label>Direct Bilirubin</label>
+			</div>
+			<br>
+			<div class="input-data">
+			<input type="text" name="ap" required>
+			<div class="underline">
+			</div>
+			<label>Alkaline Phosphotase</label>
+			</div>
+			<br>
+			<div class="input-data">
+			<input type="text" name="aa" required>
+			<div class="underline">
+			</div>
+			<label>Alamine Aminotransferase</label>
+			</div>
+			<br>
+			<div class="input-data">
+			<input type="text" name="aam"required>
+			<div class="underline">
+			</div>
+			<label>Aspartate Aminotransferase</label>
+			</div><br>
+			<div class="input-data">
+			<input type="text" name="tp"required>
+			<div class="underline">
+			</div>
+			<label>Total Protiens</label>
+			</div><br>
+			<div class="input-data">
+			<input type="text"  name="alb"required>
+			<div class="underline">
+			</div>
+			<label>Albumin</label>
+			</div><br>
+			<div class="input-data">
+			<input type="text" name="ag" required>
+			<div class="underline">
+			</div>
+			<label>Albumin and Globulin_Ratio</label>
+			</div>
+			<br>
+			<button  class="button" type="submit" value='predict!' ><span>Submit</span></button>
+
+</form>
+
+
+</div>
+</div>
+<br>
+
+<br>
+
+<div class="container">
+    
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Chemical Concentration</th>
+        <th>Normal Range</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Total Bilirubin</td>
+        <td>0.1-1.2 mg/dL</td>
+     
+      </tr>
+      <tr>
+        <td>Direct Bilirubin</td>
+        <td>0-0.4mg/dL</td>
+     
+      </tr>
+      <tr>
+        <td>Alkaline Phosphotase</td>
+        <td>44-147 IU/L</td>
+  
+      </tr>
+	  <tr>
+        <td>Alamine Aminotransferase</td>
+        <td>7 to 56 IU/L</td>
+  
+      </tr>
+	  <tr>
+        <td>Aspartate Aminotransferase</td>
+        <td>5 to 40 IU/L</td>
+  
+      </tr>
+	  <tr>
+        <td> Total Protiens</td>
+        <td>6 and 8.3 g/dL</td>
+  
+      </tr>
+	 <tr>
+        <td> Albumin</td>
+        <td>3.5 to 5.5g/dL</td>
+  
+      </tr>
+	   <tr>
+        <td>Albumin and Globulin_Ratio</td>
+        <td>0.8 - 2.0</td>
+  
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+</html>

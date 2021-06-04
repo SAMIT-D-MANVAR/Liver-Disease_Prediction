@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="static/style.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+<div class="header">
+
+  <a href="" class="logo">
+    <img src="https://i.pinimg.com/originals/39/75/6e/39756e831ee08e470fcccda20b6dcb68.png"
+	alt="liverlogo" height="110" width="130"/>
+  <span style="color:green;font-size:55px;font-family: 'Varela Round', sans-serif;">MEDIZ</span></a>
+  <div class="header-right">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+	 <a href="#p">Predict</a>
+  </div>
+</div>
+
+
+    <center>
+<div class="alert alert-danger">
+        <h1>RESULTS BASED ON YOUR REPORT VALUES  </h1>
+    
+    {%if data == 1%}
+    <h1>You are suffering from liver disease</h1>  
+	  <h1>Seek immediate medication </h1>  
+    <img src='https://2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com/wp-content/uploads/sites/3/2019/02/liverTrouble-491938420-770x553-650x428.jpg'>  
+
+    {%else%}
+<div class="alert alert-success">
+
+  <h1><b>You are not suffering from liver disease !</b></h1>
+ 
+    <img src='https://www.brandcrowd.com/gallery/brands/pictures/picture13262934843179.jpg'>
+    
+    {%endif%}
+
+        <br><br>
+    
+
+    </center>
+<center><a href='/'><button  class="button" type="submit" value='predict!' ><span>Go Back</span></button></a></center>
+</body>
+
+</html>
+
+
+
+
+
+
