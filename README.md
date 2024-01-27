@@ -1,4 +1,4 @@
-# Machine learning miniproject
+# Machine learning Project
 
 Machine Learning is a subset of AI that uses data to solve tasks. These solvers are trained models of data that learn based on the information provided to them. ML algorithms use our data to learn and automatically solve predictive tasks. Machine learning is a buzzword for today's technology, and it is growing very rapidly day by day. We are using machine learning in our daily life even without knowing it such as Google Maps, Google assistant, Alexa, etc. Some of the trending real-world applications of Machine Learning include  speech recognition, disease diagnosis,  online fraud detection etc. In our  mini project we   are going to implement  one of the application of machine learning -prediction of liver disease.
 
