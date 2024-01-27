@@ -1,4 +1,4 @@
-# Machine learning Project
+# Prediction Of Liver Disease Uisng Logistic Regression & Decision Tree
 
 Exploring the Influence of Machine Learning in Healthcare: Innovating Liver Disease Prediction
 
